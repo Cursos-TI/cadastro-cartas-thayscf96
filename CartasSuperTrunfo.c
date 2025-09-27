@@ -15,7 +15,7 @@ int main() {
     // Área para entrada de dados
 
     printf ("Cadastraremos os dados da cidade 01: \n\n Insira a primeira letra do estado: \n");
-    scanf("%s", &estado1);
+    scanf(char [3])"%s", &estado1);
 
     printf ("Insira um código de 01 a 04: \n");
     scanf("%s", &codigo1);
