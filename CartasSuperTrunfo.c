@@ -15,7 +15,7 @@ int main() {
     // Área para entrada de dados
 
     printf ("Insira a primeira letra do estado: \n");
-    scanf("%s", &estado1);
+    scanf(char (*)[1]"%s", &estado1);
 
     printf ("Insira o código de 01 a 04: \n");
     scanf("%s", &codigo1);
@@ -32,12 +32,12 @@ int main() {
     printf ("O Produto Interno Bruto da cidade: \n");
     scanf("%f", &pib1);
   
-    printf (" A quantidade de pontos turísticos na cidade: \n");
+    printf ("A quantidade de pontos turísticos na cidade: \n");
     scanf("%d", &nPontoTurist1);
 
    
    
-    printf ("Insira a primeira letra do estado: \n");
+    printf ("Agora cadastraremos os dadados da cidade 02: \n\n Insira a primeira letra do estado: \n");
     scanf("%s", &estado2);
 
     printf ("Insira o código de 01 a 04: \n");
@@ -55,12 +55,12 @@ int main() {
     printf ("O Produto Interno Bruto da cidade: \n");
     scanf("%f", &pib2);
   
-    printf (" A quantidade de pontos turísticos na cidade: \n");
+    printf ("A quantidade de pontos turísticos na cidade: \n");
     scanf("%d", &nPontoTurist2);
 
     // Área para exibição dos dados da cidade
 
-    printf("Carta 1 : \n Estado: %s \n Código: %s \n Nome da Cidade: %s \n População: %d \n Área: %f km² \n PIB: %f \n Número de Pontos Turísticos: %d \n \n ", estado1, codigo1, cidade1, populacao1, area1, pib1, nPontoTurist1);
+    printf("\n Carta 1 : \n Estado: %s \n Código: %s \n Nome da Cidade: %s \n População: %d \n Área: %f km² \n PIB: %f \n Número de Pontos Turísticos: %d \n \n ", estado1, codigo1, cidade1, populacao1, area1, pib1, nPontoTurist1);
 
     printf("Carta 2 : \n Estado: %s \n Código: %s \n Nome da Cidade: %s \n População: %d \n Área: %f \n PIB: %f \n Número de pontos turisticos: %d  ", estado2, codigo2, cidade2, populacao2, area2, pib2, nPontoTurist2);
 
