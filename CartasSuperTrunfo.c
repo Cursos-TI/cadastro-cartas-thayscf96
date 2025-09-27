@@ -14,10 +14,10 @@ int main() {
     
     // Área para entrada de dados
 
-    printf ("Insira a primeira letra do estado: \n");
+    printf ("Cadastraremos os dados da cidade 01: \n\n Insira a primeira letra do estado: \n");
     scanf("%s", &estado1);
 
-    printf ("Insira o código de 01 a 04: \n");
+    printf ("Insira um código de 01 a 04: \n");
     scanf("%s", &codigo1);
   
     printf ("Insira a cidade: \n");
@@ -29,18 +29,18 @@ int main() {
     printf ("Insira a área da cidade em quilômetros quadrados: \n");
     scanf("%f", &area1);
   
-    printf ("O Produto Interno Bruto da cidade: \n");
+    printf ("Insira o Produto Interno Bruto da cidade (PIB): \n");
     scanf("%f", &pib1);
   
-    printf ("A quantidade de pontos turísticos na cidade: \n");
+    printf ("Insira a quantidade de pontos turísticos na cidade: \n");
     scanf("%d", &nPontoTurist1);
 
    
    
-    printf ("Agora cadastraremos os dadados da cidade 02: \n\n Insira a primeira letra do estado: \n");
+    printf ("Agora cadastraremos os dados da cidade 02: \n\n Insira a primeira letra do estado: \n");
     scanf("%s", &estado2);
 
-    printf ("Insira o código de 01 a 04: \n");
+    printf ("Insira um código de 01 a 04: \n");
     scanf("%s", &codigo2);
   
     printf ("Insira a cidade: \n");
@@ -52,10 +52,10 @@ int main() {
     printf ("Insira a área da cidade em quilômetros quadrados: \n");
     scanf("%f", &area2);
   
-    printf ("O Produto Interno Bruto da cidade: \n");
+    printf ("Insira o Produto Interno Bruto da cidade (PIB): \n");
     scanf("%f", &pib2);
   
-    printf ("A quantidade de pontos turísticos na cidade: \n");
+    printf ("Insira quantidade de pontos turísticos na cidade: \n");
     scanf("%d", &nPontoTurist2);
 
     // Área para exibição dos dados da cidade
